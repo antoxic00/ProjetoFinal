@@ -1,0 +1,20 @@
+
+body{
+    background-color:cornflowerblue;
+}
+a{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 30px;
+}
+main{
+    justify-items: center;
+}
+.carousel-item{
+    align-items: center;
+}
+.carousel-inner{
+
+    height: 450px;
+    top:30px;
+}
