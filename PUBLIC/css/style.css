@@ -26,6 +26,7 @@ main{
     width: 350px;
     padding: 10px;
 }
+<<<<<<< HEAD
 * {
     margin: 0 auto;
     padding: 0;
@@ -62,4 +63,9 @@ main{
 #menu-h ul li:last-child a {
     float: right;
     background-color: rgb(24, 139, 233);
+=======
+#tenis{
+    height:350px;
+    width:300px;
+>>>>>>> e9dddc7810af8648c0ca69de55fc740ea60a32b9
 }
