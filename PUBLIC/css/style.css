@@ -1,8 +1,7 @@
 body{
-    background-color:cornflowerblue;
+    background-color:#295588;
 }
 a{
-    background-color: blanchedalmond;
     padding: 20px;
     border-radius: 30px;
 }
@@ -17,10 +16,13 @@ main{
     height: 450px;
     top:30px;
 }
-#tenis{
+#alt{
+    height:200px;
+    width:200px;
+}
+.card{
+    margin:50px;
     height: 350px;
     width: 350px;
-    border: 2px;
-    padding: 5px;
-    
+    padding: 10px;
 }
