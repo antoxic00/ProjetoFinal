@@ -22,11 +22,10 @@ main{
 }
 .card{
     margin:50px;
-    height: 350px;
+    height: 500px;
     width: 350px;
     padding: 10px;
 }
-<<<<<<< HEAD
 * {
     margin: 0 auto;
     padding: 0;
@@ -35,6 +34,10 @@ main{
 }
 
 #menu-h{
+    background-color:#295588;
+}
+
+#carrinho{
     background-color:#295588;
 }
 
@@ -57,15 +60,27 @@ main{
 }
 
 #menu-h ul li a:hover {
-    background-color: rgb(24, 139, 233);
+    background-color: #75b5ff;
 }
 
 #menu-h ul li:last-child a {
     float: right;
-    background-color: rgb(24, 139, 233);
-=======
+    background-color: #295588}
+
 #tenis{
-    height:350px;
-    width:300px;
->>>>>>> e9dddc7810af8648c0ca69de55fc740ea60a32b9
+        height:350px;
+        width:300px;}
+
+.ls-box{
+    margin:50px;
+    height: 500px;
+    width: 350px;
+    padding: 10px}
+
+    .ls-box{
+    text-align: right;
+}
+.carrinho{
+    height: 1px;
+    width: 1px;
 }
