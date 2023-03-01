@@ -1,0 +1,30 @@
+body{
+    background-color:cornflowerblue;
+}
+nav{
+    background-color: red;
+}
+nav ul{
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+nav li{
+    display: inline-block;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    padding: 0 150px;
+    display: inline-block;
+    text-align: center;
+}
+div{
+    display: inline-block;
+}

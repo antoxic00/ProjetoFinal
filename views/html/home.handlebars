@@ -1,0 +1,17 @@
+<h1>Deixe seu comentário</h1>
+<p>A sua opnião é muito importante para nós!</p>
+<div id="comentar"><a href="/form">Comentar</a></div>
+
+{{#each comments}}
+<h3>{{titulo}}</h1>
+ <h4>{{conteudo}}</p>
+   <small>{{createdAt}}</small>
+   <a href="/deletar/{{id}}"><button onclick="myfunction()">Deletar</button></a>
+   <hr>
+   </div>
+   <script>
+        function myfunction() {
+          alert("comentario excluido");
+        }
+        </script>
+{{/each}}
