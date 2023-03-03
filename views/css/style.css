@@ -22,11 +22,65 @@ main{
 }
 .card{
     margin:50px;
-    height: 350px;
+    height: 500px;
     width: 350px;
     padding: 10px;
 }
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color:#295588;
+}
+
+#carrinho{
+    background-color:#295588;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #75b5ff;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #295588}
+
 #tenis{
-    height:350px;
-    width:300px;
+        height:350px;
+        width:300px;}
+
+.ls-box{
+    margin:50px;
+    height: 500px;
+    width: 350px;
+    padding: 10px}
+
+    .ls-box{
+    text-align: right;
+}
+.carrinho{
+    height: 1px;
+    width: 1px;
 }
